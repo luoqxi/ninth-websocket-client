@@ -1,0 +1,23 @@
+{
+    "name": "luoqxi/websocket-project-standalone",
+    "description": "a simple standalone websocket project",
+    "type": "project",
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "ratchet/pawl": "^0.4.1",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Luoqxi\\WebsocketProjectStandalone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luoqxi",
+            "email": "luoqixi@proton.me"
+        }
+    ],
+    "minimum-stability": "dev"
+}
